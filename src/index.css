@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* App-wide base styles */
+:root {
+  --brand: #111827;
+}
+
+/* Ensure layout fills fully */
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  /* Removed bg-white and text-gray-900 because they block dark mode */
+  @apply font-sans antialiased;
+}
+
+/* Remove this entire block — it overrides all Tailwind dark mode styling */
+/*
+html.dark body {
+  @apply bg-slate-900 text-slate-100;
+}
+*/
+
+/* Utility for full-screen videos */
+.video-bg {
+  @apply absolute inset-0 w-full h-full object-cover;
+}

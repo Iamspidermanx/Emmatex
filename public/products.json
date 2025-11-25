@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "name": "Red Heels",
+    "sku": "EH-001",
+    "price": 25000,
+    "description": "Elegant red heels for special occasions.",
+    "category": "Heels",
+    "sizes": ["36","37","38","39","40"],
+    "colors": ["#FF4444"],
+    "media": [
+      { "type": "image", "src": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg" },
+      { "type": "image", "src": "https://res.cloudinary.com/demo/image/upload/v1312461204/balloons.jpg" }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Classic White Shirt",
+    "sku": "CS-002",
+    "price": 12000,
+    "description": "Crisp white shirt for everyday elegance.",
+    "category": "Shirts",
+    "sizes": ["S","M","L","XL"],
+    "colors": ["#FFFFFF","#000000"],
+    "media": [
+      { "type": "image", "src": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg" }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Black Leather Bag",
+    "sku": "LB-003",
+    "price": 45000,
+    "description": "Premium leather bag for work and travel.",
+    "category": "Bags",
+    "sizes": [],
+    "colors": ["#000000"],
+    "media": [
+      { "type": "image", "src": "https://res.cloudinary.com/demo/image/upload/v1312461204/old_spice.jpg" },
+      { "type": "video", "src": "https://res.cloudinary.com/demo/video/upload/sample.mp4" }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Summer Dress",
+    "sku": "SD-004",
+    "price": 18000,
+    "description": "Light and airy summer dress for sunny days.",
+    "category": "Dresses",
+    "sizes": ["S","M","L"],
+    "colors": ["white","black"],
+    "media": [
+      { "type": "image", "src": "https://res.cloudinary.com/demo/image/upload/v1312461204/sample.jpg" },
+      { "type": "image", "src": "https://res.cloudinary.com/demo/image/upload/v1312461204/chef.jpg" }
+    ]
+  }
+]
